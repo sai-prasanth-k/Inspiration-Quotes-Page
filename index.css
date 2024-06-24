@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+@media screen and (max-width: 576px) {
+    .bg-container {
+        background-image: linear-gradient(to right, #4b4a7e, #c294d1, #4b4a7e);
+        height: 100vh;
+        background-size: cover;
+        font-family: "Roboto";
+        padding: 20px;
+        overflow-y: scroll;
+    }
+    
+    .inspiration-heading {
+        color: #ffffff;
+        margin-top: 44px;
+        font-size: 30px;
+    }
+    
+    .quote-card {
+        background-color: #ffffff;
+        margin-bottom: 20px;
+        padding: 14px;
+        border-radius: 18px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .author-img {
+        width: 100px;
+        height: 100px;
+        align-self: center;
+    }
+    
+    .quotes {
+        color: #6e798c;
+    }
+    
+    .custom-icon {
+        color: #5d408c;
+        font-size: 20px;
+    }
+    
+    .icon-custom-blue {
+        color: #2a4eaa;
+    }
+    
+    .icon-custom-pink {
+        color: #9e619b;
+    }
+    
+    .icon-custom-voilet {
+        color: #391484;
+    }
+    
+    .author {
+        color: #081f32;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .quotes-container {
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+    }
+}
+
+
+
+
+
+
+
